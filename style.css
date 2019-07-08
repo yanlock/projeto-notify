@@ -15,6 +15,7 @@ header{
   display: flex;
   justify-content: space-around;
   align-items: center;
+  height: 530px;
 }
 
 .hand{
@@ -156,11 +157,90 @@ aside{
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  font-family: 'Roboto', sans-serif;
+ height: 500px;
 }
 
 aside div{
-  font-family: 'Roboto', sans-serif;
+  font-family: italic;
   color: gray;
   text-align: center;
+}
+aside span{
+  font-family: 'Roboto', sans-serif;
+  font-size: 14pt;
+  font-weight: bolder;
+  color: black;
+}
+
+
+.sharingan{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.sharingan a{
+  padding: 2px;
+  
+}
+.sharingan a:hover{
+  background-color: rgb(52, 136, 55);
+}
+
+.social{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+
+  padding: 185px;
+}
+
+.social p{
+  width: 65%;
+  margin: 15px 0;
+  padding: 0px;
+  color: gray;
+  font-family: 'Roboto', sans-serif;
+}
+
+.social h2{
+  color: black;
+  padding: 0px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.social img{
+  padding: 10px;
+  background: lightgray;
+  border-radius: 50%;
+  margin: 0 5px;
+  transition: background .3s ease-in-out ;
+}
+
+.social img:hover{
+  background: #4CAF50;
+}
+footer{
+    grid-area: footer;
+    background-color: #e3e3e3;
+    display: flex-end ;
+    justify-content: space-around;
+    align-items: center;
+    display: inline-block;
+}
+
+footer a{
+  margin: 0 20px;
+  color: gray;
+  font-family: 'Roboto', sans-serif;
+  transition: color .3s ease-in-out ;
+}
+
+footer a:hover{
+  color: #4CAF50;
 }
