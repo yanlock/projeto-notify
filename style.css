@@ -225,13 +225,14 @@ aside span{
 .social img:hover{
   background: #4CAF50;
 }
+
 footer{
     grid-area: footer;
     background-color: #e3e3e3;
-    display: flex-end ;
-    justify-content: space-around;
+    display: flex ;
+    justify-content: ;
     align-items: center;
-    display: inline-block;
+   
 }
 
 footer a{
